@@ -51,10 +51,6 @@ on:
 
 env:
   ROOT_PATH: ${{github.workspace}}/src/terraform
-  subscription_id: ${{secret.AZURE_SUBSCRIPTION_ID}}
-  tenant_id: ${{secret.AZURE_AZURE_TENANT_ID}}
-  client_id: ${{secret.AZURE_CLIENT_ID}}
-  client_secret: ${{secret.CLIENT_SECRET}}
 
 permissions:
   contents: read
